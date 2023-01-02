@@ -1,0 +1,37 @@
+# Ignore env file
+.env
+# ignore 
+.pytest_cache
+
+# Mac OS-specific storage files
+.DS_Store
+**/.DS_Store
+
+
+# R_project initializer
+.Rproj.user
+.RData
+
+
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+
+# DATA
+Data/
+.Data/
+
+# Presentations
+.ppt
+.pptx
