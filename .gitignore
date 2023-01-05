@@ -29,8 +29,8 @@ coverage.xml
 
 
 # DATA
-Data/
-.Data/
+data/
+.data/
 
 # Presentations
 .ppt
