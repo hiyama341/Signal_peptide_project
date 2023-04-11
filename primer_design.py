@@ -39,20 +39,19 @@ def generate_primers(nucleotide_sequences: List[SeqRecord or str], up_homology_a
     """
     # Extract the sequencecs if they are provided as SeqRecord 
     extracted_sequences = []
-    non_nucleotide_sequence_warning = False  # flag to keep track if warning message has been printed
     
     for sequence in nucleotide_sequences:
         if isinstance(sequence, SeqRecord):
             nucleotide_sequence = str(sequence.seq)
         elif isinstance(sequence, str):
             nucleotide_sequence = sequence
-            if set(nucleotide_sequence.upper()) - set('ACGT'):
-                if not non_nucleotide_sequence_warning:
-                    print(f"Warning: The data contains non-nucleotide sequences")
-                    non_nucleotide_sequence_warning = True  # set the flag to True after the first warning is printed
         else:
             raise TypeError(f"Expected SeqRecord, Seq object or string, but got {type(sequence)}")
 
+        # Check if the sequence contains only nucleotides
+        if set(nucleotide_sequence) - set('agtACGT'):
+            raise ValueError(f"Sequence {sequence} at index {nucleotide_sequences.index(sequence)} contains non-nucleotide characters.")
+        
         # Add up and down homology arms to the nuclceotide sequences (if stated)
         if up_homology_arm and down_homology_arm:
             nucleotide_sequence = up_homology_arm + nucleotide_sequence + down_homology_arm
