@@ -29,3 +29,14 @@ def test_generate_primers():
     # Ensure ValueError is raised if nucleotide_sequences contains non-nucleotide characters
     with pytest.raises(ValueError, match="Sequence .* contains non-nucleotide characters"):
         generate_primers(["ATGCN", SeqRecord(Seq("ATGCN"), id="test_seq")], up_homology_arm, down_homology_arm, nucleotide_homology)
+
+     # Stress test with a large number of input sequences
+    with open("../Data/FungiDB-62_AoryzaeRIB40_AnnotatedCDSs.fasta", "r") as f:
+        sequences = [line.strip() for line in f if not line.startswith(">")]
+    num_sequences = len(sequences)
+    if num_sequences >= 100:
+        sequences = sequences[:100]
+    up_homology_arm = "AGTCTCGTGTACCGCAGTGGGAGGGCGTGGTGAAGCGAGCTCGGAGGGCGGCGCGCCTCGC"
+    down_homology_arm = "CGACTAGTGTCCTGCTGGAGTCGTTCTTGTAGAAAGGAGAAGCCTGCGGCCGCTCGAGCC"
+    nucleotide_homology = 30
+    generate_primers(sequences, up_homology_arm, down_homology_arm, nucleotide_homology)
