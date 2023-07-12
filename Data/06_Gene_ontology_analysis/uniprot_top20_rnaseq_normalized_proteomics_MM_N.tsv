@@ -1,0 +1,21 @@
+From	Entry	Protein names	Gene Ontology (molecular function)
+AO090011000046	Q2U1F7	Peptidase A1 domain-containing protein	3-oxoacyl-[acyl-carrier-protein] reductase (NADPH) activity [GO:0004316]; 3-oxoacyl-[acyl-carrier-protein] synthase activity [GO:0004315]; holo-[acyl-carrier-protein] synthase activity [GO:0008897]; hydrolase activity [GO:0016787]
+AO090701000295	Q2U8T9	Uncharacterized protein	
+AO090102000440	Q2UAD1	Cyanovirin-N domain-containing protein	
+AO090003001484	Q2UIT6	Cell wall protein PhiA	
+AO090020000162	Q2U4X6	FAD-binding PCMH-type domain-containing protein	FAD binding [GO:0071949]; oxidoreductase activity [GO:0016491]
+AO090003000935	Q2UK66	Uncharacterized protein	
+AO090020000207	Q2U4T9	chitinase (EC 3.2.1.14)	chitin binding [GO:0008061]; chitinase activity [GO:0004568]
+AO090001000406	Q2UND8	Uncharacterized protein	
+AO090113000063	Q2U5P1	Endo-chitosanase C (EC 3.2.1.132)	chitosanase activity [GO:0016977]
+AO090103000153	Q2TYQ4	Uncharacterized protein	serine-type carboxypeptidase activity [GO:0004185]
+AO090011000808	Q2TZL2	Secreted protein CSS2 C-terminal domain-containing protein	
+AO090020000232	Q2U4R6	Oxidoreductase molybdopterin binding protein	molybdenum ion binding [GO:0030151]; oxidoreductase activity [GO:0016491]
+AO090023000804	Q2UGK8	Hydrophobic surface binding protein A	
+AO090023000680	Q2UGW9	FAD-binding PCMH-type domain-containing protein	FAD binding [GO:0071949]; oxidoreductase activity [GO:0016491]
+AO090005000189	Q2UT26	Lactonase family protein	
+AO090003001507	Q2UIR7	Cutinase (EC 3.1.1.74)	cutinase activity [GO:0050525]; lipase activity [GO:0016298]; triglyceride lipase activity [GO:0004806]
+AO090011000036	Q2U1G7	Extracellular metalloproteinase NpI (EC 3.4.24.-) (Elastinolytic metalloproteinase NpI) (Fungalysin NpI) (Neutral protease I)	metalloendopeptidase activity [GO:0004222]; zinc ion binding [GO:0008270]
+AO090005000064	Q2UTD2	Uncharacterized protein	hydrolase activity, hydrolyzing O-glycosyl compounds [GO:0004553]
+AO090701000540	Q2U877	Uncharacterized protein	
+AO090005001044	P10281	Ribonuclease T2 (RNase T2) (EC 4.6.1.19)	ribonuclease T2 activity [GO:0033897]; RNA binding [GO:0003723]

@@ -1,0 +1,21 @@
+From	Entry	Protein names	Gene Ontology (molecular function)
+AO090003001591	P0C1B4	Alpha-amylase A type-1/2 (EC 3.2.1.1) (1,4-alpha-D-glucan glucanohydrolase) (Taka-amylase A) (TAA)	alpha-amylase activity
+AO090011000046	Q2U1F7	Peptidase A1 domain-containing protein	"3-oxoacyl-[acyl-carrier-protein] reductase (NADPH) activity [GO:0004316]; 3-oxoacyl-[acyl-carrier-protein] synthase activity [GO:0004315]; holo-[acyl-carrier-protein] synthase activity [GO:0008897]; hydrolase activity [GO:0016787]"
+AO090010000746	P36914	Glucoamylase (EC 3.2.1.3) (1,4-alpha-D-glucan glucohydrolase) (Glucan 1,4-alpha-glucosidase)	"glucan 1,4-alpha-glucosidase activity [GO:0004339]; starch binding [GO:2001070]"
+AO090023000944	P0C1B3	Alpha-amylase A type-1/2 (EC 3.2.1.1) (1,4-alpha-D-glucan glucanohydrolase) (Taka-amylase A) (TAA)	"alpha-amylase activity [GO:0004556]; calcium ion binding [GO:0005509]"
+AO090005001090	Q2UQV1	Glycosidase (EC 3.2.-.-)	hydrolase activity, hydrolyzing O-glycosyl compounds [GO:0004553]
+AO090023000905	Q2UGB5	Protein ecm33	
+AO090038000279	Q2U2X7	Probable glucan endo-1,3-beta-glucosidase eglC (Endo-1,3-beta-glucanase eglC) (Laminarinase eglC)	hydrolase activity, hydrolyzing O-glycosyl compounds [GO:0004553]
+AO090701001051
+AO090003000935	Q2UK66	VCBS repeat-containing protein	
+AO090011000119	Q2U193	Hydrophobic surface binding protein A-domain-containing protein	
+AO090009000553	Q2UTX6	Secreted protein	
+AO090701000295	Q2U8T9	Uncharacterized protein	
+AO090003001036	P12547	Alkaline protease 1 (ALP) (EC 3.4.21.63) (Aspergillopeptidase B) (Aspergillus proteinase B) (Elastase) (Elastinolytic serine proteinase) (Oryzin)	serine-type endopeptidase activity [GO:0004252]
+AO090001000635	Q2UMT1	1,3-beta-glucanosyltransferase (EC 2.4.1.-)	glucanosyltransferase activity [GO:0042123]
+AO090005000409	Q2USI8	SUN-domain-containing protein	
+AO090009000144	Q2UUW6	SSCRP protein	
+AO090005001044	P10281	Ribonuclease T2 (RNase T2) (EC 4.6.1.19)	"ribonuclease T2 activity [GO:0033897]; RNA binding [GO:0003723]"
+AO090009000117	Q2UUZ1	Probable glucan endo-1,3-beta-glucosidase eglC (EC 3.2.1.39) (Endo-1,3-beta-glucanase eglC) (Laminarinase eglC)	glucan endo-1,3-beta-D-glucosidase activity [GO:0042973]
+AO090003000321	Q2ULP9	glucan 1,4-alpha-glucosidase (EC 3.2.1.3) (1,4-alpha-D-glucan glucohydrolase) (Glucan 1,4-alpha-glucosidase)	glucan 1,4-alpha-glucosidase activity [GO:0004339]
+AO090005001300	Q2UQD0	phosphoglycerate mutase (2,3-diphosphoglycerate-independent) (EC 5.4.2.12)	"manganese ion binding [GO:0030145]; phosphoglycerate mutase activity [GO:0004619]"
