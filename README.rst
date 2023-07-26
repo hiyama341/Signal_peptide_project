@@ -48,7 +48,7 @@ that similar mechanisms exist in other eukaryotes[1].
 
 The SPC utilizes a serine protease to cleave the peptide, with a SER-HIS-ASP catalytic triad.
 
-Below you will find a mechanistic understanding of the SPC and their interaction with singal peptides described by Liaci et al. 2021.
+Below you will find a figure illustrating our mechanistic understanding of the SPC and their interaction with signal peptides described by Liaci et al. 2021.
 
 
 .. image:: https://github.com/hiyama341/Signal_peptide_project/blob/81997579cd1d9b3d804a1f55a4fefe1c05291a1a/pictures/signal_peptide_recognition.png
