@@ -12,17 +12,15 @@ uses artificial neural networks to identify signal peptides
 based on their amino acid sequence and other features.[2]
 Which will also be used in this work. 
 
-Signal Peptidase Complex (SPC)
-------------------------------
-Cleavage of signal peptides is performed by the Signal Peptidase Complex (SPC). 
-Though our understanding of SPC largely comes from studies in humans, it is likely
-that similar mechanisms exist in other eukaryotes[1].
 
 
-The SPC utilizes a serine protease to cleave the peptide, with a SER-HIS-ASP catalytic triad.
-
-
+Signal peptide architecture
+---------------------------
 The signal peptide itself can be divided into three regions: the n-region, h-region, and c-region.
+
+.. image:: https://github.com/hiyama341/Signal_peptide_project/blob/cfec5ea8a8000e267c50e2d670d8c413e11e5b33/pictures/Eukaryotic_SP_architecture.png
+  :width: 400
+  :alt: SP architecture
 
 
 **n-region**: Determines the orientation of the signal peptide in the protein-conducting channel, Sec61.[1]
@@ -40,6 +38,16 @@ Despite the absence of a strong consensus sequence, signal sequences are recogni
 Signal Peptidase I (SPase I) with high fidelity due to this motif.
 However, eukaryotic signal peptides are more flexible, frequently accepting 
 Gly, Ser, Thr, and Cys at the −1 position and Ile, Leu, Val, Ser, and Thr at the −3 position almost as often as Ala[3].
+
+
+Signal Peptidase Complex (SPC)
+------------------------------
+Cleavage of signal peptides is performed by the Signal Peptidase Complex (SPC). 
+Though our understanding of SPC largely comes from studies in humans, it is likely
+that similar mechanisms exist in other eukaryotes[1].
+
+The SPC utilizes a serine protease to cleave the peptide, with a SER-HIS-ASP catalytic triad.
+
 
 Goal
 ----
