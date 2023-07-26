@@ -12,11 +12,42 @@ uses artificial neural networks to identify signal peptides
 based on their amino acid sequence and other features.
 Which will also be used in this work. 
 
+Signal Peptidase Complex (SPC)
+------------------------------
+Cleavage of signal peptides is performed by the Signal Peptidase Complex (SPC). 
+Though our understanding of SPC largely comes from studies in humans, it is likely
+that similar mechanisms exist in other eukaryotes.
+
+
+The SPC utilizes a serine protease to cleave the peptide, with a SER-HIS-ASP catalytic triad.
+
+
+The signal peptide itself can be divided into three regions: the n-region, h-region, and c-region.
+
+
+**n-region**: Determines the orientation of the signal peptide in the protein-conducting channel, Sec61.
+
+
+**h-region**: The length of this region appears to be a key determinant. Despite the high variability in amino 
+acid sequences among signal peptides, the h-region's low sequence conservation suggests it interacts more with 
+the SPC's lipid environment than with its transmembrane helices.
+
+
+**c-region**: Typically 3–7 amino acids long and contains two crucial positions relative to the scissile
+bond (−1 and −3), which need to be occupied by small, non-charged residues. This is often referred to as the "Ala-X-Ala" rule due to the common presence of alanine (Ala) at these positions. Despite the absence of a strong consensus sequence, signal sequences are recognized by Signal Peptidase I (SPase I) with high fidelity due to this motif. However, eukaryotic signal peptides are more flexible, frequently accepting Gly, Ser, Thr, and Cys at the −1 position and Ile, Leu, Val, Ser, and Thr at the −3 position almost as often as Ala.
+
 Goal
 ----
-The goal of engineering signal peptides for secretion of proteins 
-in Aspergillus oryzae through the use of simulation and
-machine learning techniques.
+The goal of this project is to engineer signal peptides for 
+the secretion of proteins in Aspergillus oryzae using genetic engineering and machine learning approaches, such as SignalP.
+
+Workflow
+--------
+1. Identify potential signal peptides in Aspergillus oryzae.
+2. Perform secretomics analysis and cross-reference with identified signal peptides to filter out and confirm actual signal peptides.
+3. Under controlled conditions (i.e., using the same promoter, terminator, and RFP readout), incorporate the top 10 most promising signal peptides.
+4. Scramble the last three positions in the best-performing signal peptide, resulting in a theoretical library of about 8,000 mutations. This step is designed to gain a better understanding of how positional changes affect the cleavage activity of the signal peptidase.
+5. Apply high-throughput technologies to design, build, and test/screen the strains created from the mutation library.
 
 
 Colab notebooks
