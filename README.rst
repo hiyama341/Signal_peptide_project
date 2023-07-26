@@ -19,7 +19,7 @@ Signal peptide architecture
 The signal peptide itself can be divided into three regions: the n-region, h-region, and c-region.
 
 .. image:: https://github.com/hiyama341/Signal_peptide_project/blob/cfec5ea8a8000e267c50e2d670d8c413e11e5b33/pictures/Eukaryotic_SP_architecture.png
-  :width: 400
+  :width: 800
   :alt: SP architecture
 
 
@@ -40,14 +40,20 @@ However, eukaryotic signal peptides are more flexible, frequently accepting
 Gly, Ser, Thr, and Cys at the −1 position and Ile, Leu, Val, Ser, and Thr at the −3 position almost as often as Ala[3].
 
 
-Signal Peptidase Complex (SPC)
-------------------------------
+Signal Peptidase Complex (SPC) and the interaction with signal peptides
+-----------------------------------------------------------------------
 Cleavage of signal peptides is performed by the Signal Peptidase Complex (SPC). 
 Though our understanding of SPC largely comes from studies in humans, it is likely
 that similar mechanisms exist in other eukaryotes[1].
 
 The SPC utilizes a serine protease to cleave the peptide, with a SER-HIS-ASP catalytic triad.
 
+Below you will find a mechanistic understanding of the SPC and their interaction with singal peptides described by Liaci et al. 2021.
+
+
+.. image:: https://github.com/hiyama341/Signal_peptide_project/blob/81997579cd1d9b3d804a1f55a4fefe1c05291a1a/pictures/signal_peptide_recognition.png
+  :width: 800
+  :alt: SP architecture
 
 Goal
 ----
