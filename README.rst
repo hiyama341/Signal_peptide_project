@@ -52,8 +52,8 @@ Below you will find a mechanistic understanding of the SPC and their interaction
 
 
 .. image:: https://github.com/hiyama341/Signal_peptide_project/blob/81997579cd1d9b3d804a1f55a4fefe1c05291a1a/pictures/signal_peptide_recognition.png
-  :width: 800
-  :alt: SP architecture
+  :width: 400
+  :alt: SP interaction
 
 Goal
 ----
